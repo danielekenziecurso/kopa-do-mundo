@@ -1,4 +1,3 @@
-from datetime import datetime
 from django.db import models
 
 
@@ -9,6 +8,5 @@ class Team(models.Model):
     fifa_code = models.CharField(max_length=3, unique=True)
     first_cup = models.DateField(null=True, blank=True)
 
-
-def __str__(self):
-    return f"{self.name} - {self.fifa_code}"
+    def __repr__(self):
+        return f"<[{self.pk}] {self.name} - {self.fifa_code}>"
