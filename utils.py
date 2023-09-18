@@ -15,6 +15,6 @@ def data_processing(data_dict: dict):
     if first_cup_date < 1930 or first_cup_date not in years_cup:
         raise InvalidYearCupError("there was no world cup this year")
 
-    total_cups = (data_cup - first_cup_date)/4
+    total_cups = (data_cup - first_cup_date) / 4
     if data_dict["titles"] > total_cups:
         raise ImpossibleTitlesError("impossible to have more titles than disputed cups")
