@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # M5 - Kopa do Mundo
 
 ## Preparando ambiente para execução dos testes
@@ -95,3 +96,6 @@ Caso queira, também é possível rodar todos os testes de uma vez:
 ```shell
 pytest --testdox -vvs
 ```
+=======
+# kopa-do-mundo
+>>>>>>> 9946b9bf75e5ac23bfce5b5495ad16e97f6a1302
